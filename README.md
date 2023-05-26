@@ -32,8 +32,9 @@ The app the attemps to upload the file and upon success will provide the user wi
 1. Right click the 'dropbox_link_generator.py' file in this repository and click Download Linked File.
 Save the file to the desired location.
 
-2. Open the file in an IDE and find the variable for root directory at the top of the code. Change this variable to your prefered destination.
+2. Open the file in an IDE and find the variable for root directory at the top of the code. Change this variable to your prefered destination. You can copy a file path on macOS from the bottom of the finder window.
 ![RootDir](media/rootdir.jpg?raw=true "Root Directory")
+![path](media/path.jpg?raw=true "path")
 
 3. Go to www.Dropbox.com/developers/apps and create a new app and allow all read and write permissions. In your new apps settings you will be able to generate an access token to allow the app permission to access your Dropbox.
 ![token](media/token.jpg?raw=true "token")
