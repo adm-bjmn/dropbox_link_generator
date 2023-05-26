@@ -46,7 +46,7 @@ You can copy a file path on macOS from the bottom of the finder window.
 4. Open a terminal and navigate to the folder where you have saved dropbox_link_generator.py - Start the app by running the command ~  python3 dropbox_link_generator.py 
 </br>
 
-5. Copy and paste your Dropbox token when prompted.
+5. Copy and paste your Dropbox token when prompted. (The token used here has long expired)
 ![token_paste](media/token_paste.jpg?raw=true "token_paste") 
 </br>
 
