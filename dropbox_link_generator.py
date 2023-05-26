@@ -2,6 +2,9 @@
 import os
 import dropbox
 
+# ++++ CHANGE ROOTDIR TO YOUR LOCAL DIRECTORY ++++
+rootdir = '/Users/adm.bjmn/Desktop'  # Root directory on machine
+
 def create_direct_link(dbx):
     '''
     create_direct_link uses the dropbox api to upload a 
@@ -13,7 +16,6 @@ def create_direct_link(dbx):
         'Please type the name of the file you want to upload: '))
     destination_folder = input(
         'Please enter the name of the destination folder inside your Dropbox:')
-    rootdir = '/Users/adm.bjmn/Desktop'  # Root directory on machine
     file_found = False  # Variable to track if the file is found
     
     # Traverse through the directory tree
