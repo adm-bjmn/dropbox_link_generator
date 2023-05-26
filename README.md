@@ -18,7 +18,11 @@
 </details>
     
 ## About The Project
-Dropbox Link Generator is a terminal app that allows you to upload a file and get a sharable url link.
+
+Dropbox Link Generator is a terminal app that allows a user to upload a file to thier dropbox account and get a direcrt url link to the uploaded file from within the command line.
+The app uses the Dropbox API to connect to a users Dropbox account after being authorized using an access token.
+The User is requested to state the name of the file they wish to upload followed by the folder within the dropbox that they wish to save the file to.
+The app the attemps to upload the file and upon success will provide the user with a URL link to the file that can be shared with others.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
